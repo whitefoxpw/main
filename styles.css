@@ -5,6 +5,7 @@ body {
     background-image:
     url(img/background.jpg);
     font-family: Ubuntu;
+
 }
 
 nav {
@@ -16,6 +17,7 @@ nav {
     border-color: black;
     
 }
+
 
 h1 {
     text-align: center;
@@ -30,8 +32,6 @@ h2 {
 .logo {
     margin: 40px auto 50px;
     display: block;
-    
-    
 }
 
 .SiteMenu {
@@ -53,13 +53,12 @@ sidebar {
     padding-left: 15px;
 }
 
-.ClanPlayers {
-    align-content: center;
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
 }
 
-table {
-    margin: auto;
-}
+
 
 /* For larger screen sizes */
 @media only screen and (min-width: 768px) {
