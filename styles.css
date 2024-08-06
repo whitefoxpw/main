@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image:
+    url(img/background.jpg);
+    font-family: Ubuntu;
+}
+
+nav {
+    background-color: Goldenrod;
+    text-align: center;
+    padding: 5px;
+    border-radius: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Ubuntu;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo {
+    margin: 40px auto 50px;
+    display: block;
+    
+    
+}
+
+.SiteMenu {
+    padding-left: 100px;
+    display: block;
+    margin-top: -655px;
+    font-size: 20pt;
+}
+
+sidebar {
+    
+    text-align: center;
+    
+    
+    
+}
+
+.MainText {
+    padding-left: 15px;
+}
+
+.ClanPlayers {
+    align-content: center;
+}
+
+table {
+    margin: auto;
+}
+
+/* For larger screen sizes */
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
