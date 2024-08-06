@@ -1,3 +1,7 @@
+* {
+box-sizing: border-box;
+}
+
 html,
 body {
     margin: 0;
@@ -22,7 +26,7 @@ nav {
 h1 {
     text-align: center;
     font-family: Ubuntu;
-    
+    padding: 5px;
 }
 
 h2 {
@@ -30,15 +34,29 @@ h2 {
 }
 
 .logo {
-    margin: 40px auto 50px;
-    display: block;
+    margin:  auto;
+    padding-left: 250px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    overflow:auto;
+    flex-wrap: nowrap;
+    
+    
+
 }
 
 .SiteMenu {
+    
     padding-left: 100px;
-    display: block;
+    display: flex;
     margin-top: -655px;
     font-size: 20pt;
+    flex-wrap: nowrap;
+    
+
 }
 
 sidebar {
@@ -61,7 +79,7 @@ sidebar {
 
 
 /* For larger screen sizes */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -76,3 +94,17 @@ sidebar {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
