@@ -33,28 +33,33 @@ h2 {
     text-align: center;
 }
 
+
+
+
+
 .logo {
-    margin:  auto;
-    padding-left: 250px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-    flex-grow: 0;
-    flex-shrink: 1;
-    overflow:auto;
-    flex-wrap: nowrap;
     
+    margin: 40px auto 50px;
+    padding-left: 200px;
+    display: block;
     
 
+    
+    
+    
+    
 }
 
 .SiteMenu {
     
-    padding-left: 100px;
+    margin-top: -400px;
+    padding-left: 10px;
     display: flex;
-    margin-top: -655px;
+    margin-right: 20px;
     font-size: 20pt;
-    flex-wrap: nowrap;
+    position: fixed;
+    
+    
     
 
 }
@@ -62,6 +67,10 @@ h2 {
 sidebar {
     
     text-align: center;
+    display: flex;
+    position: fixed;
+    top: 25%;
+
     
     
     
@@ -108,3 +117,27 @@ sidebar {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+@media screen and (min-width: 320px) {
+    body {
+        max-width: 25%;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    body {
+        max-width: 50%;
+    }
+}
+
+@media screen and(min-width: 768px) {
+    body {
+        max-width: 75%;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        max-width: 100%;
+    }
+}
