@@ -22,11 +22,16 @@ nav {
     
 }
 
+@media screen and (min-width: 767px) {
 
-h1 {
-    text-align: center;
+.h1 {
+    text-align: auto;
     font-family: Ubuntu;
     padding: 5px;
+    font-size: 20pt;
+    margin-top: -5px;
+    margin-left: -300px;
+}
 }
 
 h2 {
@@ -34,30 +39,31 @@ h2 {
 }
 
 
-
-
-
-.logo {
-    
-    margin: 40px auto 50px;
-    padding-left: 200px;
-    display: block;
-    
-
+.BigImage {
     
     
-    
-    
+    margin-left: 700px;
+    margin-top: -620px;
 }
 
-.SiteMenu {
+
+
     
-    margin-top: -400px;
+    
+    
+
+.SiteMenu {
+
+    
+    margin-top: 200px;
     padding-left: 10px;
-    display: flex;
-    margin-right: 20px;
+    display: block;
+    margin-left: 20px;
     font-size: 20pt;
-    position: fixed;
+    position: relative;
+    
+
+    
     
     
     
@@ -68,8 +74,7 @@ sidebar {
     
     text-align: center;
     display: flex;
-    position: fixed;
-    top: 25%;
+    justify-content: left;
 
     
     
@@ -78,6 +83,7 @@ sidebar {
 
 .MainText {
     padding-left: 15px;
+
 }
 
 /* For mobile phones: */
