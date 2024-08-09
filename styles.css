@@ -22,16 +22,13 @@ nav {
     
 }
 
-@media screen and (min-width: 767px) {
 
-.h1 {
-    text-align: auto;
+h1 {
+    text-align: center;
     font-family: Ubuntu;
     padding: 5px;
-    font-size: 20pt;
-    margin-top: -5px;
-    margin-left: -300px;
-}
+    font-size: 24pt;
+    
 }
 
 h2 {
@@ -42,8 +39,8 @@ h2 {
 .BigImage {
     
     
-    margin-left: 770px;
-    margin-top: -655px;
+    margin-left: 570px;
+    margin-top: -530px;
 }
 
 
@@ -55,7 +52,7 @@ h2 {
 .SiteMenu {
 
     
-    margin-top: 200px;
+    margin-top: 80px;
     padding-left: 10px;
     display: block;
     margin-left: 20px;
