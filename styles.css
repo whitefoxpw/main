@@ -22,6 +22,11 @@ nav {
     
 }
 
+.BigImage {
+    margin-top: -550px;
+    margin-left: -600px;
+}
+
 
 h1 {
     text-align: center;
@@ -31,10 +36,7 @@ h1 {
     
 }
 
-.BigImage {
-    margin-top: -550px;
-    margin-left: -600px;
-}
+
 
 
 h2 {
