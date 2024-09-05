@@ -97,6 +97,7 @@ li {
         max-width: 250px;
         height: 50%;
         margin-left: -50px;
+        padding-left: 40px;
     }
 
     h1 {
