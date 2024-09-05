@@ -274,7 +274,7 @@ li {
             width: 800px;
             max-width: 100%;
             height: auto;
-            max-height: 100%;
+            max-height: 50%%;
             transform: scale(0.9);
             -webkit-transform: scale(0.8);
             -ms-transform: scale(0.5);
