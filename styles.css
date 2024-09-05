@@ -79,8 +79,7 @@ li {
     img {
         max-width: 100px;
         height: 50%;
-        margin: -65px;
-        padding: 45px;
+        margin: auto;
     }
 
     h1 {
@@ -97,8 +96,7 @@ li {
     img {
         max-width: 100px;
         height: 50%;
-        margin: -65px;
-        padding: 45px;
+        margin: auto;
     }
 
     h1 {
@@ -115,8 +113,7 @@ li {
     img {
         max-width: 250px;
         height: 50%;
-        margin: -65px;
-        padding: 45px;
+        margin: auto;
     }
 
     h1 {
@@ -132,8 +129,7 @@ li {
     img {
         max-width: 250px;
         height: 50%;
-        margin: -65px;
-        padding-left: 45px;
+        margin: auto;
     }
 
     h1 {
