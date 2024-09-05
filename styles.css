@@ -271,10 +271,10 @@ li {
 
 @media screen and (max-width: 1920px) {
         img {
-            max-width: 800px;
+            max-width: 1000px;
             height: 50%;
             margin-top: -10px;
             transform: scale(1);
-            padding-left: 200px;
+            padding-left: 250px;
             
 }    
