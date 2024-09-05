@@ -271,7 +271,7 @@ li {
 
 @media screen and (max-width: 1920px) {
         img {
-            max-width: 850px;
+            max-width: 80px;
             height: 50%;
             margin: auto;
 }    
