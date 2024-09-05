@@ -273,4 +273,5 @@ li {
         img {
             max-width: 850px;
             height: 50%;
+            margin: auto;
 }    
