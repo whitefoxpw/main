@@ -6,10 +6,9 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-image:
-    url(img/background.jpg);
+  height: 1px;
+  background: linear-gradient(to top right, #EDDE8B, #EEDF8C, #EDDF8A, #EED67E, #EECD6E, #EDCB6A, #EEC25D, #EFB547, #EFB446, #F0B243);
     font-family: Ubuntu;
-
 }
 
 nav {
@@ -22,12 +21,6 @@ nav {
     
 }
 
-.BigImage {
-    margin-top: -750px;
-    margin-left: -900px;
-}
-
-
 h1 {
     text-align: center;
     font-family: Ubuntu;
@@ -36,114 +29,141 @@ h1 {
     
 }
 
-
-
-
 h2 {
-    text-align: center;
-}
-
-
-
-
-
-
-    
-    
-    
-
-.SiteMenu {
-
-    
-    margin-top: 80px;
-    padding-left: 10px;
-    display: block;
-    margin-left: 20px;
-    font-size: 20pt;
-    position: relative;
-    
-
-    
-    
-    
-    
-
-}
-
-sidebar {
-    
-    text-align: center;
-    display: flex;
-    justify-content: left;
-
-    
-    
-    
+    text-align: left;
+    margin-top: -50px
 }
 
 .MainText {
     padding-left: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background: linear-gradient(to bottom, #D09338, #F7A52F, #CB5F17, #731803);
+    border: 4px groove black;
 
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
-
-
-/* For larger screen sizes */
-@media only screen and (min-width: 767px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
 }
 
+li {
+    border: 5px groove #FFFAFA;
+}
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.Logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    top: -0;
+    right: 0;
+    padding-top: 150px;
+    padding-right: 80px;
+}
 
-@media screen and (min-width: 320px) {
-    body {
-        max-width: 25%;
+@media screen and (max-width: 640px) {
+    img {
+        max-width: 250px;
+        height: 50%;
+        margin: -50px;
+    }
+
+    h1 {
+        font-size: 18pt;
+    }
+
+    h2 {
+        margin-top: -30px;
+    }
+        
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 250px;
+        height: 50%;
+        margin-left: -50px;
+    }
+
+    h1 {
+        font-size: 18pt;
+    }
+
+    h2 {
+        margin-top: -30px;
     }
 }
 
-@media screen and (min-width: 550px) {
-    body {
-        max-width: 50%;
+@media screen and (max-width: 854px) {
+    img {
+        max-width: 440px;
+        height: 50%;
+    }
+
+    h2 {
+        margin-top: -20px;
     }
 }
 
-@media screen and(min-width: 768px) {
-    body {
-        max-width: 75%;
+@media screen and (max-width: 1024px) {
+        img {
+            max-width: 480px;
+            height: 50%;
+            margin-top: -35px;
+            padding-right: 20px;   
+        }
+
+        h1 {
+        font-size: 18pt;
+    }
+
+    h2 {
+        margin-top: -20px;
     }
 }
 
-@media screen and (min-width: 960px) {
-    body {
-        max-width: 100%;
+@media screen and (max-width: 1100px) {
+        img {
+            max-width: 420px;
+            max-height: 45%;
+            margin-top: -35px;
+            padding-left: 60px;
+        }
+
+        h1 {
+        font-size: 18pt;
     }
-}
+}    
+
+@media screen and (max-width: 1300px) {
+        img {
+            max-width: 500px;
+            height: 50%;
+            margin-top: -35px;
+        }
+
+        h1 {
+        font-size: 18pt;
+    }
+}    
+
+@media screen and (max-width: 1920px) {
+        img {
+            max-width: 800px;
+            height: 50%;
+        }
+}    
