@@ -65,11 +65,11 @@ li {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    position: fixed;
+    position: absolute;
     top: -0;
     right: 0;
-    padding-top: 150px;
-    padding-right: 80px;
+    margin-top: 150px;
+    margin-right: 80px;
 }
 
 @media screen and (max-width: 350px) {
