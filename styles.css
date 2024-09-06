@@ -278,6 +278,6 @@ li {
             max-height: 100%;
             transform: scale(1.0);
             -webkit-transform: scale(1.0);
-            -ms-transform: scale(0.5);
-            
-}    
+            -ms-transform: scale(1.0);
+           }
+}
