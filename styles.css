@@ -65,11 +65,11 @@ li {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    position: absolute;
+    position: fixed;
     top: -0;
     right: 0;
     margin-top: 150px;
-    margin-right: 80px;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 350px) {
@@ -249,8 +249,8 @@ li {
 @media screen and (max-width: 1700px) {
         img {
             max-width: 500px;
-            height: 50%;
-            margin-top: -35px;
+            height: auto;
+            max-height: 100%;
         }
 
         h1 {
@@ -268,13 +268,13 @@ li {
 
 @media screen and (min-width: 1920px) {
         img {
-            width: auto;
-            height: auto;
-            max-height: 100%;
+            width: 60%;
+           margin: right;
+            max-height: 75%;
         }
 }
 
 img {
-    max-width: 70%;
+    max-width: 60%;
     height: auto;
 }
