@@ -65,13 +65,13 @@ li {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    position: static;
+    position: fixed;
     top: -0;
     right: 0;
-    margin: right;
-    
-    
-}
+	max-width:800px;
+	max-height: 550px;
+	margin-top: 200px;
+    }
 
 @media screen and (max-width: 350px) {
     img {
