@@ -6,8 +6,8 @@ html,
 body {
     margin: 0;
     padding: 0;
-  height: 1px;
-  background: linear-gradient(to top right, #EDDE8B, #EEDF8C, #EDDF8A, #EED67E, #EECD6E, #EDCB6A, #EEC25D, #EFB547, #EFB446, #F0B243);
+    height: 1px;
+    background: linear-gradient(to top right, #EDDE8B, #EEDF8C, #EDDF8A, #EED67E, #EECD6E, #EDCB6A, #EEC25D, #EFB547, #EFB446, #F0B243);
     font-family: Ubuntu;
 }
 
@@ -18,7 +18,6 @@ nav {
     border-radius: 1px 1px 1px 1px;
     border-style: solid;
     border-color: black;
-    
 }
 
 h1 {
@@ -26,7 +25,6 @@ h1 {
     font-family: Ubuntu;
     padding: 5px;
     font-size: 24pt;
-    
 }
 
 h2 {
@@ -45,7 +43,6 @@ ul {
     width: 200px;
     background: linear-gradient(to bottom, #D09338, #F7A52F, #CB5F17, #731803);
     border: 4px groove black;
-
 }
 
 li a {
@@ -274,13 +271,10 @@ li {
             width: auto;
             height: auto;
             max-height: 100%;
-            transform: scale(1.0);
-            -webkit-transform: scale(1.0);
-            -ms-transform: scale(1.0);
-           }
+        }
 }
 
 img {
-    max-width: 65%;
+    max-width: 70%;
     height: auto;
 }
