@@ -269,15 +269,18 @@ li {
         }
 }                      
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
         img {
-            width: 800px;
-            min-width: 10%;
-            max-width: 100%;
+            width: auto;
             height: auto;
             max-height: 100%;
             transform: scale(1.0);
             -webkit-transform: scale(1.0);
             -ms-transform: scale(1.0);
            }
+}
+
+img {
+    max-width: 70%;
+    height: auto;
 }
