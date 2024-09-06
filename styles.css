@@ -272,6 +272,7 @@ li {
 @media screen and (max-width: 1920px) {
         img {
             width: 800px;
+            min-width: 10%;
             max-width: 100%;
             height: auto;
             max-height: 100%;
