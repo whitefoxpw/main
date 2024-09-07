@@ -80,7 +80,7 @@ li {
         width: 200px;
         max-width: 100%;
         height: auto;
-        margin-right: 30px;
+        margin-right: 50px;
     }
 
     h1 {
@@ -88,7 +88,7 @@ li {
     }
 
     h2 {
-        margin-top: 30px;
+        margin-top: 50px;
         font-size: 14pt;
     }
 }
