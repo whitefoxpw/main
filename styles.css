@@ -80,7 +80,7 @@ li {
         width: 200px;
         max-width: 100%;
         height: auto;
-        margin-right: 50px;
+        margin-left: 50px;
     }
 
     h1 {
@@ -113,10 +113,10 @@ li {
 
 @media screen and (max-width: 430px) and (orientation: portrait) {
     img {
-        width: 200px;
+        width: 180px;
         max-width: 100%;
          height: auto;
-        margin: 30px;
+        margin-left: 30px;
     }
 
     h1 {
