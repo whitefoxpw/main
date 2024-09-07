@@ -359,18 +359,17 @@ li {
 
 @media screen and (min-width: 300px) and (orientation: portrait) {
     img {
-        
-           margin: auto;
-            max-width: 90%;
+        margin: auto;
+        max-width: 90%;
         height: auto;
-        }
+    }
 
     h1 {
         font-size: 14pt;
     }
 
     h2 {
-        margin-top: 50px;
+        margin-top: 100px;
         font-size: 14pt;
     }
 }
