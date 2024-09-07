@@ -68,8 +68,8 @@ li {
     position: absolute;
     top: -0;
     right: 0;
-    max-width: 60%;
-    height: -50%;
+    max-width: 30%;
+    height: 20%;
     margin-top: 180px;
     margin-right: 80px;
 }
@@ -274,9 +274,4 @@ li {
            margin: right;
             
         }
-}
-
-img {
-    max-width: auto;
-    height: auto;
 }
