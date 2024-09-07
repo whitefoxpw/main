@@ -64,13 +64,13 @@ li {
 .Logo {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
-    position: static;
+    align-items: flex-end;
+    position: absolute;
     top: -0;
     right: 0;
-    max-width:800px;
+    max-width: 650px;
     height: auto;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 @media screen and (max-width: 350px) {
