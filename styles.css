@@ -270,6 +270,7 @@ li {
         img {
             width: 800px;
            margin: right;
+            max-width: 100%;
             
         }
 }
