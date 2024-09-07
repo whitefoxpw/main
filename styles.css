@@ -75,7 +75,7 @@ li {
     margin-right: 50px;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (max-width: 350px) {
     img {
         max-width: 150px;
         height: auto;
