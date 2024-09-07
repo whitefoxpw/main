@@ -79,8 +79,7 @@ li {
     img {
         max-width: 150px;
         height: 150px;
-        margin-left: 20px;
-        margin-top: -5px;
+        margin: center;
     }
 
     h1 {
@@ -97,8 +96,7 @@ li {
     img {
         max-width: 150px;
         height: 150px;
-        margin-left: 20px;
-        margin-top: -5px;
+        margin: center;
     }
 
     h1 {
