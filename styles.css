@@ -75,7 +75,7 @@ li {
     margin-right: 50px;
 }
 
-@media screen and (max-width: >300px) {
+@media screen and (max-width: 300px) {
     img {
         width: 40%;
         max-width: 100%;
@@ -93,12 +93,12 @@ li {
     }
 }
 
-@media screen and (max-width: >400px) {
+@media screen and (max-width: 400px) {
     img {
         width: 40%;
         max-width: 100%;
         height: auto;
-        margin: center;
+        margin: auto;
     }
 
     h1 {
@@ -269,12 +269,12 @@ li {
             height: 50%;
             margin-top: -35px;
         }
-}   }                   
+}                      
 
 @media screen and (min-width: 1920px) {
         img {
             min-width: 40%;
-           margin: right;
+           margin: auto;
             max-width: 100%;
         }
-}   }
+}   
