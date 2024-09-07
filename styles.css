@@ -73,7 +73,7 @@ li {
     max-width: 800px;
     height: auto;
     margin-top: 170px;
-    margin-right: 120px;
+    margin-left: 120px;
 }
 
 @media screen and (max-width: 350px) {
