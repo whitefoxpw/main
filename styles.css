@@ -68,9 +68,10 @@ li {
     position: absolute;
     top: -0;
     right: 0;
-    max-width: 650px;
+    max-width: 800px;
     height: auto;
     margin-top: 140px;
+    padding-right: 80px;
 }
 
 @media screen and (max-width: 350px) {
