@@ -82,8 +82,7 @@ li {
     img {
         max-width: 250px;
         height: auto;
-        margin-left: 40px;
-        margin-right: 30px;
+        margin: auto;
     }
     
     
