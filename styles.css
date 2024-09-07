@@ -68,8 +68,8 @@ li {
     position: absolute;
     top: -0;
     right: 0;
-    max-width: 60vw;
-    height: 50vh;
+    max-width: 60%;
+    height: -50%;
     margin-top: 180px;
     margin-right: 80px;
 }
