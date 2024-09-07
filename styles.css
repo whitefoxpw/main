@@ -83,6 +83,7 @@ li {
         max-width: 250px;
         height: auto;
         margin: auto;
+        padding-left: 20px;
     }
 
     h1 {
