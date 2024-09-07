@@ -80,10 +80,9 @@ li {
 
 @media screen and (min-width: 300px) and (orientation: portrait) {
     img {
-        width: 200px;
-        max-width: 100%;
-        height: auto;
-        padding-right: 70px;
+        min-width: 40%;
+           margin-top: -70px;
+            max-width: 100%;
     }
 
     h1 {
