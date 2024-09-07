@@ -78,8 +78,8 @@ li {
 @media screen and (min-width: 350px) {
     img {
         max-width: 150px;
-        height: 150px;
-        margin: 20px;
+        height: auto;
+        margin: 30px;
     }
 
     h1 {
