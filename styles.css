@@ -78,9 +78,9 @@ li {
 
 @media screen and (min-width: 300px) and (orientation: portrait) {
     img {
-        width: 200px;
-        max-width: 87%;
-        height: auto;
+        min-width: 40%;
+           margin: auto;
+            max-width: 100%;
         margin-left: 50px;
     }
 
