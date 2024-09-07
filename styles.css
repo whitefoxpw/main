@@ -92,7 +92,7 @@ li {
     }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
     img {
         width: 60%;
         max-width: 50%;
@@ -110,7 +110,7 @@ li {
     }
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 430px) {
     img {
         width: 60%;
         max-width: 50%;
