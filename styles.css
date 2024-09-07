@@ -237,6 +237,7 @@ li {
         font-size: 18pt;
     }
 } 
+
 @media screen and (min-width: 1600px) {
         img {
             max-width: 800px;
@@ -248,6 +249,7 @@ li {
         font-size: 18pt;
     }
 } 
+
 @media screen and (min-width: 1700px) {
         img {
             max-width: 800px;
@@ -266,13 +268,12 @@ li {
             height: 50%;
             margin-top: -35px;
         }
-}                      
+}   }                   
 
 @media screen and (min-width: 1920px) {
         img {
             min-width: 40%;
            margin: right;
             max-width: 100%;
-            
         }
-}
+}   }
