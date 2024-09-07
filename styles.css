@@ -76,7 +76,7 @@ li {
 
 @media screen and (max-width: 350px) {
     img {
-        max-width: 150px;
+        max-width: auto;
         height: auto;
         margin: auto;
         margin-top: -5px;
@@ -94,7 +94,7 @@ li {
 
 @media screen and (max-width: 400px) {
     img {
-        max-width: 150px;
+        max-width: auto;
         height: auto;
         margin: auto;
         margin-top: -5px;
