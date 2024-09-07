@@ -109,12 +109,11 @@ li {
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
     img {
         max-width: 250px;
-        height: 50%;
-        margin-left: 20px;
-        margin-top: -5px;
+         height: auto;
+        margin: 30px;
     }
 
     h1 {
