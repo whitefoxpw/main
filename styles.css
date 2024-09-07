@@ -78,7 +78,7 @@ li {
 
 @media screen and (min-width: 300px) and (orientation: portrait) {
     img {
-        width: 200px;
+        width: auto;
         max-width: 100%;
         height: auto;
         padding-right: 70px;
