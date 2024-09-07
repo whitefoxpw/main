@@ -1,5 +1,6 @@
 
 
+
 * {
 box-sizing: border-box;
 }
@@ -208,7 +209,7 @@ li {
 @media screen and (min-width: 1300px) {
         img {
             min-width: 40%;
-           margin-top: -115px;
+           margin-top: -90px;
             max-width: 100%;
         }
 
