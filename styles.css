@@ -89,7 +89,7 @@ li {
     }
 
     h2 {
-        padding-top: 20px;
+        padding-top: 30px;
     }
 }
 
@@ -107,7 +107,7 @@ li {
     }
 
     h2 {
-        padding-top: 20px;
+        padding-top: 30px;
         font-size: 14pt;
     }
 }
@@ -116,7 +116,7 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        padding-left: 10%;
+        padding-left: 30px;
         
         
     }
@@ -132,7 +132,7 @@ li {
 
 @media screen and (max-width: 768px) {
     img {
-        width: 200px;
+        width: 150px;
         
         
         margin: 5px 0px 0px 15px;
@@ -154,7 +154,7 @@ li {
     }
 
     h2 {
-        padding-top: 20px;
+        padding-top: 30px;
     }
 }
 
