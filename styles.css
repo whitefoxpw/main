@@ -116,7 +116,6 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        
         margin: auto;
         margin-top: -5px;
     }
@@ -136,7 +135,6 @@ li {
         
         
         margin-left: 40px;
-        
     }
 
     h1 {
