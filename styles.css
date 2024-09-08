@@ -81,7 +81,7 @@ li {
     figure {
         max-width: 200px;
         height: auto;
-        float: right;
+        justify-self: space-around;
     }
 
     h1 {
@@ -135,7 +135,8 @@ li {
     img {
         max-width: 250px;
         height: 50%;
-        
+        margin: -65px;
+        padding-left: 45px;
     }
 
     h1 {
