@@ -162,9 +162,18 @@ li {
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 960px) {
         img {
             max-width: 650px;
+            height: 50%;
+            margin-top: 80px;
+            margin-right: 80px;
+        }
+} 
+
+@media screen and (min-width: 980px) {
+        img {
+            max-width: 800px;
             height: 50%;
             margin-top: 80px;
             margin-right: 80px;
@@ -174,15 +183,6 @@ li {
 figure {
     display: flex;
 }
-
-@media screen and (min-width: 980px) {
-        figure {
-            max-width: 800px;
-            height: 100%;
-            margin-top: 80px;
-            margin-right: 80px;
-        }
-} 
 
 @media screen and (min-width: 1024px) and (orientation: portrait) {
         img {
@@ -200,5 +200,3 @@ figure {
         margin-top: -20px;
     }
 }
-
-
