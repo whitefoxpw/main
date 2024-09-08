@@ -131,12 +131,13 @@ li {
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 768px) {
     img {
+        width: 150px;
         max-width: 250px;
         height: 50%;
-        margin: -65px;
-        padding-left: 45px;
+        margin: 65px;
+        
     }
 
     h1 {
