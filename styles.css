@@ -181,4 +181,8 @@ li {
             margin-top: -35px;
             margin-right: 80px;
         }
-}                 
+} 
+
+img {
+    display: flex;
+}
