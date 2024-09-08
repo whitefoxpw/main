@@ -79,7 +79,7 @@ li {
     img {
         max-width: 150px;
         height: auto;
-        margin-left: 60px;
+        margin-left: auto;
     }
 
     h1 {
