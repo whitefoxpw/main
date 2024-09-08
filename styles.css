@@ -116,7 +116,7 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        padding-left: 20%;
+        padding-left: 15%;
         
         
     }
@@ -126,7 +126,7 @@ li {
     }
 
     h2 {
-        margin-top: -30px;
+        padding-top: 30px;
     }
 }
 
