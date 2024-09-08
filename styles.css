@@ -186,5 +186,5 @@ li {
 
 img {
     display: flex;
-    flex-direction: space-between;
+    justify-content: space-between;
 }
