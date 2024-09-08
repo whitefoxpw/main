@@ -81,7 +81,7 @@ li {
     figure {
         max-width: 200px;
         height: auto;
-        margin-left: -50px;
+        justify-self: center;
     }
 
     h1 {
