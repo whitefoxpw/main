@@ -132,10 +132,10 @@ li {
 
 @media screen and (max-width: 768px) {
     img {
-        width: auto;
         
         
-        padding: initial;
+        
+        padding: inherit;
     }
 
     h1 {
