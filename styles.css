@@ -116,8 +116,7 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        padding-left: 10%;
-        padding-right: 10%;
+        position: absolute;
         
     }
 
