@@ -116,7 +116,7 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        position: absolute;
+        position: sticky;
         
     }
 
