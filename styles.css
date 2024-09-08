@@ -145,10 +145,6 @@ li {
     h2 {
         margin-top: -20px;
     }
-
-    ul, li {
-        margin-top: 30px;
-    }
 }
 
 @media screen and (max-width: 854px) {
