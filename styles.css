@@ -65,7 +65,7 @@ li {
 
 .Logo {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     position: absolute;
     top: -0;
