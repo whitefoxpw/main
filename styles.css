@@ -78,7 +78,7 @@ li {
 }
 
 @media screen and (min-width: 300px), (max-width: 390px) and (orientation: portrait) {
-    figure {
+    img {
         max-width: 150px;
         height: auto;
         margin-left: 35px;
@@ -94,7 +94,7 @@ li {
 }
 
 @media screen and (min-width: 400px) and (orientation: portrait) {
-    figure {
+    img {
         
         width: 200px;
         max-width: 100%;
@@ -115,7 +115,7 @@ li {
 
 
 @media screen and (max-width: 640px) {
-    figure {
+    img {
         max-width: 250px;
         height: 50%;
         margin: auto;
@@ -132,7 +132,7 @@ li {
 }
 
 @media screen and (min-width: 767px) {
-    figure {
+    img {
         max-width: 250px;
         height: 50%;
         margin: -65px;
@@ -149,7 +149,7 @@ li {
 }
 
 @media screen and (max-width: 854px) {
-    figure {
+    img {
         max-width: 440px;
         height: 50%;
     }
@@ -160,7 +160,7 @@ li {
 }
 
 @media screen and (min-width: 1024px) {
-        figure {
+        img {
             max-width: 480px;
             height: 50%;
             margin-top: -35px;
@@ -177,7 +177,7 @@ li {
 }
 
 @media screen and (min-width: 980px) {
-        figure {
+        img {
             max-width: 800px;
             height: 50%;
             margin-top: -35px;
