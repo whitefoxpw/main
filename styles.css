@@ -81,7 +81,7 @@ li {
     figure {
         max-width: 200px;
         height: auto;
-        justify-self: center;
+        flex-direction: column;
     }
 
     h1 {
