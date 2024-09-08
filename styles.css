@@ -91,6 +91,10 @@ li {
     h2 {
         margin-top: 50px;
     }
+
+    .Logo {
+        margin-left: 40px;
+    }
 }
 
 @media screen and (min-width: 400px), (max-width: 490px) and (orientation: portrait) {
