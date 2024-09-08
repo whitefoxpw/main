@@ -116,8 +116,7 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        border-collapse: separate;
-        border-spacing: 15px;
+        padding-left: -45px;
         
     }
 
