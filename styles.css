@@ -91,13 +91,13 @@ li {
     }
 }
 
-@media screen and (max-width: 400px) and (orientation: portrait) {
+@media screen and (min-width: 400px) and (orientation: portrait) {
     img {
         
         width: 200px;
         max-width: 100%;
         height: auto;
-        margin: 20px;
+        margin-left: 35px;
     }
 
     h1 {
