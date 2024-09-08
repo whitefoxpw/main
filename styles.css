@@ -79,7 +79,7 @@ li {
 
 @media screen and (min-width: 300px), (max-width: 390px) and (orientation: portrait) {
     figure {
-        width: 150px;
+        min-width: 150px;
         max-width: 250px;
         height: auto;
         margin-left: 35px;
