@@ -79,7 +79,7 @@ li {
     img {
         max-width: 150px;
         height: auto;
-        justify-content: space-between;
+        justify-self: space-between;
     }
 
     h1 {
