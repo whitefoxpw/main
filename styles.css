@@ -80,18 +80,19 @@ li {
 }
 
 @media screen and (min-width: 300px), (max-width: 390px) and (orientation: portrait) {
-    figure {
-        max-width: 200px;
+    img {
+        max-width: 650px;
         height: auto;
-        padding-left: 40px;
+        margin-left: 40px;
+        padding-left: 45px;
     }
 
     h1 {
-        font-size: 14pt;
+        font-size: 18pt;
     }
 
     h2 {
-        margin-top: 50px;
+        margin-top: -30px;
     }
 }
 
