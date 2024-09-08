@@ -187,5 +187,5 @@ li {
 } 
 
 figure {
-    display: flex;
+    display: block;
 }
