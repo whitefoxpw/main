@@ -96,7 +96,7 @@ li {
 @media screen and (min-width: 400px) and (orientation: portrait) {
     img {
         
-        width: 200px;
+        width: 150px;
         max-width: 100%;
         height: auto;
         margin-left: 25px;
@@ -116,7 +116,7 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        padding-left: 10px;
+        padding-left: -10px;
         
     }
 
@@ -134,7 +134,7 @@ li {
         width: 200px;
         
         
-        margin: 5px 0px 0px -15px;
+        margin: 5px 0px 0px 15px;
     }
 
     h1 {
