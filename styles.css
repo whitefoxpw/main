@@ -163,6 +163,15 @@ li {
     }
 }
 
+@media screen and (min-width: 980px) {
+        img {
+            max-width: 650px;
+            height: 50%;
+            margin-top: 80px;
+            margin-right: 80px;
+        }
+} 
+
 @media screen and (min-width: 1024px) and (orientation: portrait) {
         img {
             max-width: 800px;
