@@ -82,7 +82,7 @@ li {
     figure {
         max-width: 200px;
         height: auto;
-        justify-self: space-around;
+        flex: auto;
     }
 
     h1 {
