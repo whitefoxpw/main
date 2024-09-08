@@ -82,7 +82,7 @@ li {
     figure {
         max-width: 200px;
         height: auto;
-        flex: auto;
+        padding-left: 40px;
     }
 
     h1 {
