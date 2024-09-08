@@ -73,24 +73,23 @@ li {
     min-width: 150px;
     max-width: 800px;
     height: auto;
-    margin-top: 150px;
+    margin-top: 180px;
     margin-right: 50px;
 }
 
-@media screen and (min-width: 320px), (max-width: 390px) and (orientation: portrait) {
-    img {
-        width: 150px;
+@media screen and (min-width: 300px), (max-width: 390px) and (orientation: portrait) {
+    figure {
+        max-width: 150px;
         height: auto;
-        margin-left: 80px;
-        padding-left: 80px;
+        margin-left: 35px;
     }
 
     h1 {
-        font-size: 18pt;
+        font-size: 14pt;
     }
 
     h2 {
-        margin-top: -30px;
+        margin-top: 50px;
     }
 }
 
@@ -115,14 +114,12 @@ li {
 
 
 
-@media screen and (max-width: 640px) and (orientation: portrait) {
+@media screen and (max-width: 640px) {
     img {
         max-width: 250px;
         height: 50%;
         margin: auto;
         margin-top: -5px;
-        margin-left: 40px;
-        padding-left: 45px;
     }
 
     h1 {
@@ -134,11 +131,11 @@ li {
     }
 }
 
-@media screen and (min-width: 768px) and (orientation: portrait) {
+@media screen and (min-width: 767px) {
     img {
-        max-width: 650px;
-        height: auto;
-        margin-left: 40px;
+        max-width: 250px;
+        height: 50%;
+        margin: -65px;
         padding-left: 45px;
     }
 
@@ -151,7 +148,7 @@ li {
     }
 }
 
-@media screen and (max-width: 854px) and (orientation: portrait) {
+@media screen and (max-width: 854px) {
     img {
         max-width: 440px;
         height: 50%;
@@ -162,34 +159,12 @@ li {
     }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1024px) {
         img {
-            max-width: 650px;
-            height: 50%;
-            margin-top: 80px;
-            margin-right: 80px;
-        }
-} 
-
-@media screen and (min-width: 980px) {
-        img {
-            max-width: 800px;
-            height: 50%;
-            margin-top: 80px;
-            margin-right: 80px;
-        }
-} 
-
-figure {
-    display: flex;
-}
-
-@media screen and (min-width: 1024px) and (orientation: portrait) {
-        img {
-            max-width: 800px;
+            max-width: 480px;
             height: 50%;
             margin-top: -35px;
-               
+            padding-right: 20px;   
         }
 
         h1 {
@@ -199,4 +174,17 @@ figure {
     h2 {
         margin-top: -20px;
     }
+}
+
+@media screen and (min-width: 980px) {
+        img {
+            max-width: 800px;
+            height: 50%;
+            margin-top: -35px;
+            margin-right: 80px;
+        }
+} 
+
+img {
+    display: flex;
 }
