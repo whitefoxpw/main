@@ -79,8 +79,7 @@ li {
 
 @media screen and (min-width: 300px), (max-width: 390px) and (orientation: portrait) {
     .Logo {
-        min-width: 150px;
-        max-width: 250px;
+        max-width: 200px;
         height: auto;
         margin-left: 35px;
     }
