@@ -116,8 +116,8 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        margin: auto;
-        margin-top: -5px;
+        width: 250px;
+        justify-self: space-around;
     }
 
     h1 {
