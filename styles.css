@@ -153,18 +153,6 @@ li {
     }
 }
 
-@media screen and (min-width: 854px) {
-    img {
-        margin-right: -117px;
-        max-width: 440px;
-        height: 50%;
-
-    }
-
-    h2 {
-        margin-top: -20px;
-    }
-}
 
 @media screen and (max-width: 854px) {
     img {
