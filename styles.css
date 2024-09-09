@@ -78,11 +78,10 @@ li {
     margin-right: 50px;
 }
 
-@media screen and (min-width: 300px) and (orientation: portrait) {
+/*@media screen and (min-width: 300px), (max-width: 390px) and (orientation: portrait) {
     img {
-        max-width: 250px;
-        height: auto;
-        margin: auto;
+        padding: initial;
+        
     }
 
     h1 {
@@ -92,13 +91,12 @@ li {
     h2 {
         margin-top: 50px;
     }
-}
+}*/
 
 @media screen and (max-width: 400px) and (orientation: portrait) {
     img {
         
-        max-width: 250px;
-        height: auto;
+        
         margin: auto;
     }
 
@@ -115,9 +113,8 @@ li {
 @media screen and (max-width: 430px) and (orientation: portrait) {
     img {
         
-        max-width: 85%;
-        height: auto;
-        margin-left: 30px;
+        margin-left: 3cm;
+
     }
 
     h1 {
@@ -131,10 +128,7 @@ li {
 
 @media screen and (max-width: 640px) {
     img {
-        max-width: 250px;
-        height: 50%;
-        margin: auto;
-        margin-top: -5px;
+        width: inherit;
     }
 
     h1 {
@@ -148,10 +142,8 @@ li {
 
 @media screen and (max-width: 768px) {
     img {
-        max-width: 250px;
-        height: 50%;
-        margin: -65px;
-        padding-left: 45px;
+        padding: inherit;
+
     }
 
     h1 {
@@ -167,6 +159,7 @@ li {
     img {
         max-width: 440px;
         height: 50%;
+
     }
 
     h2 {
@@ -277,4 +270,9 @@ li {
            margin: auto;
             max-width: 100%;
         }
-}   
+}
+
+/*img {
+    display: flex;
+    justify-content: center;
+}*/
